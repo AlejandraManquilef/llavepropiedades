@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LlavePropiedades</title>
+  <meta name="description" content="Propiedades en Lo Barnechea, Vitacura, Las Condes, Chicureo y Villarrica." />
+  <style>
+    body{font-family:system-ui,Arial;margin:0;background:#fff;color:#111}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
+    .wrap{max-width:1100px;margin:0 auto;padding:16px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .menu{display:flex;gap:18px;align-items:center}
+    a{color:inherit;text-decoration:none}
+    .wa{background:#25D366;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600}
+    .hero{padding:28px 0;background:linear-gradient(180deg,#fafafa,#fff)}
+    .h1{font-size:34px;line-height:1.1;margin:0 0 10px}
+    .sub{color:#444;margin:0 0 18px}
+    .filters{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+    select,input{padding:10px 12px;border:1px solid #ddd;border-radius:10px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .card{border:1px solid #eee;border-radius:16px;overflow:hidden;background:#fff}
+    .img{height:160px;background:#f1f1f1;display:flex;align-items:center;justify-content:center;color:#777}
+    .c{padding:12px}
+    .tag{font-size:12px;color:#555}
+    .price{font-size:18px;font-weight:700;margin:6px 0}
+    .btn{display:inline-block;margin-top:10px;padding:9px 12px;border:1px solid #ddd;border-radius:12px}
+    footer{border-top:1px solid #eee;margin-top:24px}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:600px){.grid{grid-template-columns:1fr}.h1{font-size:28px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="font-weight:800;">LlavePropiedades</div>
+      </div>
+      <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicio">Servicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a class="wa" href="https://wa.me/56953305683" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="wrap">
+        <h1 class="h1">Propiedades seleccionadas</h1>
+        <p class="sub">Lo Barnechea · Vitacura · Las Condes · Chicureo · Villarrica</p>
+
+        <div class="filters" aria-label="Filtros (demo)">
+          <select><option>Operación</option><option>Venta</option><option>Arriendo</option></select>
+          <select><option>Comuna</option><option>Lo Barnechea</option><option>Providencia</option></select>
+          <select><option>Tipo</option><option>Casa</option><option>Departamento</option><option>Oficina</option><option>Terreno</option></select>
+          <select><option>Condominio</option><option>Sí</option><option>No</option></select>
+          <input placeholder="Precio (UF o $)" />
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="img">LP-002 · Foto</div>
+            <div class="c">
+              <div class="tag">Venta · Oficina · Providencia</div>
+              <div class="price">UF 5.100</div>
+              <div>A pasos Metro Los Leones · 100 m² · 4 estac. (aparte)</div>
+              <a class="btn" href="propiedad-lp-002.html">Ver ficha</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="img">LP-003 · Foto</div>
+            <div class="c">
+              <div class="tag">Venta · Casa · Lo Barnechea</div>
+              <div class="price">UF 15.150</div>
+              <div>Condominio · 140 m² · 174 m² terreno · 5D/5B</div>
+              <a class="btn" href="propiedad-lp-003.html">Ver ficha</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="img">Próximamente</div>
+            <div class="c">
+              <div class="tag">Nuevas propiedades</div>
+              <div class="price">—</div>
+              <div>Estamos cargando el inventario.</div>
+              <a class="btn" href="https://wa.me/56953305683" target="_blank" rel="noopener">Consultar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicio">
+      <div class="wrap">
+        <h2>Servicio</h2>
+        <p>Asesoría en venta y arriendo, estrategia de precio, marketing y coordinación de visitas.</p>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="wrap">
+        <h2>Nosotros</h2>
+        <p>LlavePropiedades — gestión clara, rápida y cercana.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <small>© LlavePropiedades · Contacto: contacto@llavepropiedades.cl</small>
+    </div>
+  </footer>
+</body>
+</html>
