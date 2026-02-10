@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LP-003 · LlavePropiedades</title>
+  <style>
+    body{font-family:system-ui,Arial;margin:0;background:#fff;color:#111}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
+    .wrap{max-width:900px;margin:0 auto;padding:16px}
+    a{color:inherit;text-decoration:none}
+    .wa{background:#25D366;color:#fff;padding:10px 14px;border-radius:10px;font-weight:600;display:inline-block}
+    .box{border:1px solid #eee;border-radius:16px;padding:14px;margin:12px 0}
+    .muted{color:#555}
+    h1{margin:8px 0}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    @media(max-width:700px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
+      <a href="index.html" style="font-weight:800;">LlavePropiedades</a>
+      <a class="wa" href="https://wa.me/56953305683?text=Hola%2C%20me%20interesa%20la%20propiedad%20LP-003%20en%20Lo%20Barnechea.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%20y%20coordinar%20visita%3F" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="muted"><a href="index.html">← Volver</a></p>
+    <h1>LP-003 · Casa nueva en condominio · Monte Tabor · Lo Barnechea</h1>
+
+    <div class="box">
+      <div class="grid">
+        <div><strong>Operación:</strong> Venta</div>
+        <div><strong>Tipo:</strong> Casa</div>
+        <div><strong>Precio:</strong> UF 15.150</div>
+        <div><strong>Orientación:</strong> Sur-Oriente</div>
+        <div><strong>Construidos:</strong> 140 m²</div>
+        <div><strong>Terreno:</strong> 174 m²</div>
+        <div><strong>Terraza:</strong> 6 m²</div>
+        <div><strong>Dormitorios:</strong> 5</div>
+        <div><strong>Baños:</strong> 5</div>
+        <div><strong>Baño de visitas:</strong> Sí</div>
+        <div><strong>Servicio completo:</strong> Sí</div>
+        <div><strong>Condominio:</strong> Sí</div>
+        <div><strong>Estacionamientos:</strong> 2</div>
+        <div><strong>Bodega:</strong> Por confeccionar</div>
+        <div><strong>Perimetral:</strong> Sí</div>
+        <div><strong>Disponibilidad:</strong> Mayo 2026</div>
+        <div><strong>Gasto común:</strong> (pendiente)</div>
+        <div><strong>Contribuciones:</strong> (pendiente)</div>
+      </div>
+    </div>
+
+    <div class="box">
+      <strong>Referencias del sector</strong>
+      <p class="muted">Monte Tabor, Santuario del Valle, Strip Center, Supermercado Líder, Club Santa Martina. Otros colegios: Everest, Santiago College y Craighouse.</p>
+    </div>
+
+    <div class="box">
+      <strong>Descripción</strong>
+      <p class="muted">
+        Irrepetible casa ubicada en el Valle, a pasos del Colegio Monte Tabor, en uno de los sectores más cotizados de Lo Barnechea. Con una vista al Valle y la Cordillera, sin igual. Se distribuye en tres niveles.<br><br>
+        <strong>Primer Piso:</strong> Servicio/Oficina con baño propio. Baño de visitas. Living/Comedor/Cocina formato americana.<br>
+        <strong>Segundo Piso:</strong> Dormitorio principal en suite. Dos dormitorios grandes que comparten un baño.<br>
+        <strong>Tercer Piso:</strong> Sector amplio (puede ser otro dormitorio o family), iluminado y muy versátil con baño completo.<br><br>
+        Propiedad pensada para una vida familiar cómoda y segura, en un entorno tranquilo con alta plusvalía.
+      </p>
+      <p><a class="wa" href="https://wa.me/56953305683?text=Hola%2C%20me%20interesa%20la%20propiedad%20LP-003%20en%20Lo%20Barnechea.%20%C2%BFMe%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%20y%20coordinar%20visita%3F" target="_blank" rel="noopener">Consultar por WhatsApp</a></p>
+    </div>
+
+    <div class="box">
+      <strong>Link Portal (referencia)</strong>
+      <p class="muted">
+        <a href="https://www.portalinmobiliario.com/MLC-1691159579-irrepetible-nueva-en-condominio-y-a-pasos-de-monte-tabor-_JM" target="_blank" rel="noopener">
+          Ver publicación
+        </a>
+      </p>
+    </div>
+  </main>
+</body>
+</html>
