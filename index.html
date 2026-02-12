@@ -123,35 +123,48 @@
     </div>
   </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script>
+       <script>
+document.addEventListener("DOMContentLoaded", function () {
   const el = document.querySelector(".testimonialsSwiper");
+
   if (el) {
     new Swiper(el, {
       loop: true,
       slidesPerView: 1,
       spaceBetween: 18,
-      autoHeight: true,
-      autoplay: { delay: 3800, disableOnInteraction: false },
+      centeredSlides: true,
+
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
 
       pagination: {
         el: el.querySelector(".swiper-pagination"),
         clickable: true,
       },
+
       navigation: {
         nextEl: el.querySelector(".swiper-button-next"),
         prevEl: el.querySelector(".swiper-button-prev"),
       },
     });
   }
-</script>
-
 });
 </script>
 
-  });
-</script>
+<style>
+.testimonialsSwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials {
+  text-align: center;
+}
+</style>
+
 
         <h1 class="h1">Propiedades Destacadas</h1>
         <p class="sub">Lo Barnechea · Vitacura · Las Condes · Chicureo · Villarrica · Otros</p>
