@@ -107,35 +107,46 @@
 
       </div>
 
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+     <div class="swiper testimonialsSwiper">
+  <div class="swiper-wrapper">
+    <!-- slides -->
+    <article class="swiper-slide tcard">...</article>
+    <article class="swiper-slide tcard">...</article>
+    <article class="swiper-slide tcard">...</article>
+  </div>
+
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
     </div>
   </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-  new Swiper(".testimonialsSwiper", {
-    loop: true,
-    spaceBetween: 18,
-    autoplay: { delay: 3800, disableOnInteraction: false },
-    pagination: { el: ".testimonials .swiper-pagination", clickable: true },
-    navigation: {
-      nextEl: ".testimonials .swiper-button-next",
-      prevEl: ".testimonials .swiper-button-prev"
-    },
-    <script>
-new Swiper(".testimonialsSwiper", {
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 18,
-  autoplay: { delay: 3800, disableOnInteraction: false },
-  pagination: { el: ".testimonials .swiper-pagination", clickable: true },
-  navigation: {
-    nextEl: ".testimonials .swiper-button-next",
-    prevEl: ".testimonials .swiper-button-prev"
+  const el = document.querySelector(".testimonialsSwiper");
+  if (el) {
+    new Swiper(el, {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 18,
+      autoHeight: true,
+      autoplay: { delay: 3800, disableOnInteraction: false },
+
+      pagination: {
+        el: el.querySelector(".swiper-pagination"),
+        clickable: true,
+      },
+      navigation: {
+        nextEl: el.querySelector(".swiper-button-next"),
+        prevEl: el.querySelector(".swiper-button-prev"),
+      },
+    });
   }
+</script>
+
 });
 </script>
 
