@@ -52,10 +52,31 @@
         <p class="sub">Lo Barnechea · Vitacura · Las Condes · Chicureo · Villarrica · Otras</p>
 
         <div class="filters" aria-label="Filtros (demo)">
-          <select><option>Operación</option><option>Venta</option><option>Arriendo</option></select>
-          <select><option>Comuna</option><option>Lo Barnechea</option><option>Providencia</option></select>
-          <select><option>Tipo</option><option>Casa</option><option>Departamento</option><option>Oficina</option><option>Terreno</option></select>
-          <select><option>Condominio</option><option>Sí</option><option>No</option></select>
+          <select>
+  <option value="" disabled selected>Operación</option>
+  <option>Venta</option>
+  <option>Arriendo</option>
+</select>
+
+          <select>
+  <option>Sector</option>
+  <option>Lo Barnechea</option>
+  <option>Vitacura</option>
+             <option>Las Condes</option>  <option>Chicureo</option>  <option>Villarrica</option>  <option>Otro</option>
+</select>
+
+         <select>
+  <option value="" disabled selected>Tipo</option>
+  <option>Casa</option>
+  <option>Departamento</option>
+  <option>Oficina</option>
+  <option>Terreno</option>
+</select>
+          <select>
+  <option value="" disabled selected>Condominio</option>
+  <option>Sí</option>
+  <option>No</option>
+</select>
           <input placeholder="Precio (UF o $)" />
         </div>
 
