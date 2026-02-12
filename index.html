@@ -31,6 +31,7 @@
     @media(max-width:600px){.grid{grid-template-columns:1fr}.h1{font-size:28px}}
   </style>
 </head>
+  
 <body>
   <header>
     <div class="wrap nav">
@@ -54,126 +55,7 @@
       <div class="wrap"> 
          <img src="hero 1.jpg" alt="LlavePropiedades" style="width:100%; border-radius:20px; margin-bottom:20px;">
         <section class="testimonials">
-  <div class="testimonials__wrap">
- <!--    
-   <h2 class="testimonials__title">Lo que dicen nuestros clientes</h2>-->
-
-    <div class="swiper testimonialsSwiper">
-      <div class="swiper-wrapper">
-
-        <article class="swiper-slide tcard">
-          <p class="tcard__text">“Excelente gestión. Vendimos rápido y al precio esperado. Comunicación impecable.”</p>
-          <div class="tcard__footer">
-            <div class="tcard__avatar" aria-hidden="true">MC</div>
-            <div>
-              <div class="tcard__name">María C.</div>
-              <div class="tcard__meta">Las Condes</div>
-            </div>
-          </div>
-        </article>
-
-        <article class="swiper-slide tcard">
-          <p class="tcard__text">“Nos acompañaron en todo el proceso, súper claros y profesionales. Recomendados.”</p>
-          <div class="tcard__footer">
-            <div class="tcard__avatar" aria-hidden="true">JP</div>
-            <div>
-              <div class="tcard__name">Javier P.</div>
-              <div class="tcard__meta">Lo Barnechea</div>
-            </div>
-          </div>
-        </article>
-
-        <article class="swiper-slide tcard">
-          <p class="tcard__text">“Fotos y publicación de primer nivel. Mucha más visibilidad que con otras corredoras.”</p>
-          <div class="tcard__footer">
-            <div class="tcard__avatar" aria-hidden="true">AF</div>
-            <div>
-              <div class="tcard__name">Antonia F.</div>
-              <div class="tcard__meta">Chicureo</div>
-            </div>
-          </div>
-        </article>
-
-        <article class="swiper-slide tcard">
-          <p class="tcard__text">“Rápidos, transparentes y muy buena negociación. Cero estrés.”</p>
-          <div class="tcard__footer">
-            <div class="tcard__avatar" aria-hidden="true">RS</div>
-            <div>
-              <div class="tcard__name">Roberto S.</div>
-              <div class="tcard__meta">Vitacura</div>
-            </div>
-          </div>
-        </article>
-
-      </div>
-
-     <div class="swiper testimonialsSwiper">
-  <div class="swiper-wrapper">
-    <!-- slides -->
-    <article class="swiper-slide tcard">...</article>
-    <article class="swiper-slide tcard">...</article>
-    <article class="swiper-slide tcard">...</article>
-  </div>
-
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-</div>
-
-    </div>
-  </div>
-</section>
-
-       <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const el = document.querySelector(".testimonialsSwiper");
-
-  if (el) {
-    new Swiper(el, {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 18,
-      centeredSlides: true,
-
-      autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,
-      },
-
-      pagination: {
-        el: el.querySelector(".swiper-pagination"),
-        clickable: true,
-      },
-
-      navigation: {
-        nextEl: el.querySelector(".swiper-button-next"),
-        prevEl: el.querySelector(".swiper-button-prev"),
-      },
-    });
-  }
-});
-</script>
-
-/* Centra TODO el carrusel en la página */
-.testimonialsSwiper {
-  max-width: 900px;      /* puedes subirlo a 1100 si quieres más ancho */
-  margin: 0 auto;       /* ESTO lo centra */
-}
-
-/* centra cada tarjeta */
-.testimonialsSwiper .swiper-slide {
-  display: flex;
-  justify-content: center;
-}
-
-/* centra texto */
-.testimonials {
-  text-align: center;
-}
-
-</style>
-
-
+ 
         <h1 class="h1">Propiedades Destacadas</h1>
         <p class="sub">Lo Barnechea · Vitacura · Las Condes · Chicureo · Villarrica · Otros</p>
         <div class="filters" aria-label="Filtros (demo)">
