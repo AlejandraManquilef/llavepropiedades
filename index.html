@@ -77,6 +77,49 @@ header {
   .main-menu li a:hover {
     opacity: .7;
   }
+    .main-header {
+  max-width: 1200px;       /* MISMO ancho visual que tu foto */
+  margin: 0 auto;         /* centra el header */
+  padding: 20px 0;        /* sin padding lateral */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo arriba + texto abajo */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Logo más chico */
+.logo-container img {
+  height: 24px;           /* AJUSTA aquí si quieres aún más chico */
+}
+
+/* Texto bajo logo */
+.logo-text {
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Menú derecha */
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+}
+
   </style>
 
 </head>
